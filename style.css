@@ -73,6 +73,13 @@ body{
     padding-bottom: 3%;
 }
 
+.sidebar-header{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .main{
     grid-column: 2/3;
 }
