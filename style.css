@@ -58,15 +58,18 @@ body{
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 3fr;
-    padding: 1vh 1vw;
+}
+
+body div{
+  padding: 0 1vw;
 }
 
 .sidebar{
     display: grid;
     grid-template-rows: 1fr 2fr 4fr;
     grid-row: 1/3;
-    /* height: 100vh; */
-    /* padding: 1vw 10%; */
+    background-color: blue;
+    height: 100vh;
 }
 
 .sidebar ul li{
@@ -101,12 +104,12 @@ body{
 
 .side-cards{
   display: grid;
-  align-items: stretch;
   gap: 10px;
 }
 
 .side-card{
   outline: 1px solid  black;
+  height: 300px;
 }
 
 .user-section{
