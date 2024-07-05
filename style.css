@@ -58,14 +58,15 @@ body{
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 3fr;
+    padding: 1vh 1vw;
 }
 
 .sidebar{
     display: grid;
     grid-template-rows: 1fr 2fr 4fr;
     grid-row: 1/3;
-    height: 100vh;
-    padding: 3% 10%;
+    /* height: 100vh; */
+    /* padding: 1vw 10%; */
 }
 
 .sidebar ul li{
@@ -81,5 +82,43 @@ body{
 }
 
 .main{
+    display: grid;
     grid-column: 2/3;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+.card{
+    outline: 1px solid  black;
+    height: 150px;
+}
+
+.side-cards{
+  display: grid;
+  align-items: stretch;
+  gap: 10px;
+}
+
+.side-card{
+  outline: 1px solid  black;
+}
+
+.user-section{
+  display: flex;
+}
+
+.search-section, .user-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header{
+  display: grid;
 }
