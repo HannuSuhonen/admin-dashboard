@@ -119,9 +119,25 @@ body div{
 .search-section, .user-section{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
 }
 
 .header{
   display: grid;
+}
+
+.user-section-name,
+.search-section-searchbar, 
+.search-section-notifications,
+.user-section-buttons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-section-searchbar,
+.searchbar,
+.user-section-name,
+.user-section-buttons,
+.search-section-notifications{
+  flex-grow: 1;
 }
