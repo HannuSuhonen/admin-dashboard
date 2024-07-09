@@ -174,3 +174,8 @@ h3{
 .search-section-searchbar{
   height: 100%;
 }
+
+li img,
+.sidebar-header img{
+  filter: invert(100%);
+}
