@@ -72,6 +72,10 @@ body{
 .sidebar ul li{
     list-style-type: none;
     padding-bottom: 3%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0;
 }
 
 .sidebar-header{
@@ -102,8 +106,10 @@ body{
 
 .card,
 .side-card{
+  position: relative;
     background-color: white;
-    border-radius: 25px;
+    border-radius: 10px;
+    border-left: 4px solid #ff6550;
     padding: 10px;
 }
 
@@ -134,7 +140,6 @@ body{
 }
 
 .search-section-searchbar,
-.searchbar,
 .user-section-name,
 .user-section-buttons,
 .search-section-notifications{
@@ -149,7 +154,19 @@ body{
 .user-section-buttons button{
   background-color: #0369a1;
   color: white;
-  border-radius: 25px;
+  border-radius: 10px;
   border: none;
   padding: 20px;
+}
+
+.searchbar{
+  background-color: #e2e8f0;
+  border-radius: 5px;
+  border-style: none;
+  height: 50%;
+  width: 75%;
+}
+
+.search-section-searchbar{
+  height: 100%;
 }
