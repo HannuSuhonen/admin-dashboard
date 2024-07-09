@@ -72,6 +72,7 @@ body{
 
 .sidebar ul li{
   font-size: 24px;
+  font-weight: bold;
     list-style-type: none;
     padding-bottom: 3%;
     display: flex;
@@ -156,14 +157,14 @@ body{
 .user-section-buttons button{
   background-color: #0369a1;
   color: white;
-  border-radius: 10px;
+  border-radius: 1rem;
   border: none;
   padding: 20px;
 }
 
 .searchbar{
   background-color: #e2e8f0;
-  border-radius: 5px;
+  border-radius: 1rem;
   border-style: none;
   height: 50%;
   width: 75%;
